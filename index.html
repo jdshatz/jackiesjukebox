@@ -3,8 +3,8 @@
 <head>
   <title>Jackie Daniels's Jivin' Jukebox</title>
   <link rel="stylesheet" type="text/css" href="jackies.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
-  <script type="text/javascript" src = "js/jackies.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jackies.js"></script>
 </head>
 
 <body>
@@ -19,77 +19,70 @@
 
     <div class = "tripartite">
 
-      <div class = "column">
+      <audio src = "audio/letsdance.mp3"></audio>
+      <audio src = "audio/begin.mp3"></audio>
+      <audio src = "audio/penn65000.mp3"></audio>
+      <audio src = "audio/atrain.mp3"></audio>
+      <audio src = "audio/moonlight.mp3"></audio>
+      <audio src = "audio/stardust.mp3"></audio>
+      <audio src = "audio/smileagain.mp3"></audio>
+      <audio src = "audio/whitechristmas.mp3"></audio>
 
-      <h3>Up-Tempo</h3>
-      <h4>For Lindy Hop, Foxtrot, and Other Kinds of Rug-Cutting</h4>
 
-        <div class = "track">
-          <div id = "track1">
-            <h3>Let's Dance</h3>
-            <h4>Benny Goodman and His Orchestra</h4>
-            <audio src="audio/letsdance.mp3"></audio>
+        <div class = "column" id = "uptempo">
+
+        <h3>Up-Tempo</h3>
+        <h4>For Lindy Hop, Foxtrot, and Other Kinds of Rug-Cutting</h4>
+
+          <div class = "track" id = "track1">
+              <h3>Let's Dance</h3>
+              <h4>Benny Goodman and His Orchestra</h4>
           </div>
-        </div>
 
-        <div class = "track">
-          <div id = "track2">
-            <h3>Begin the Beguine</h3>
-            <h4>Artie Shaw and His Orchestra</h4>
+          <div class = "track" id = "track2">
+              <h3>Begin the Beguine</h3>
+              <h4>Artie Shaw and His Orchestra</h4>
           </div>
-        </div>
 
-        <div class = "track">
-          <div id = "track3">
-            <h3>Pennsylvania 6-5000</h3>
-            <h4>Glenn Miller and His Orchestra</h4>
+          <div class = "track" id = "track3">
+              <h3>Pennsylvania 6-5000</h3>
+              <h4>Glenn Miller and His Orchestra</h4>
           </div>
-        </div>
 
-        <div class = "track">
-          <div id = "track4">
-            <h3>Take the A-Train</h3>
-            <h4>Duke Ellington and His Orchestra</h4>
+          <div class = "track" id = "track4">
+              <h3>Take the A-Train</h3>
+              <h4>Duke Ellington and His Orchestra</h4>
           </div>
+
         </div>
-      </div>
 
-      <div class = "column">
-        <div id = "jukebox">
-          <img src = "Jukebox.jpeg">
+        <div class = "column" id = "jukebox">
+            <img src = "Jukebox.jpeg">
         </div>
-      </div>
 
-      <div class = "column">
+        <div class = "column" id = "ballads">
 
-      <h3>Ballads</h3>
-      <h4>For Slow, Sentimental, Romantic Dancing </h4>
+          <h3>Ballads</h3>
+          <h4>For Slow, Sentimental, Romantic Dancing </h4>
 
-        <div class = "track">
-          <div id = "track5">
-            <h3>Moonlight Serenade</h3>
-            <h4>Glenn Miller and His Orchestra</h4>
+          <div class = "track" id = "track5">
+              <h3>Moonlight Serenade</h3>
+              <h4>Glenn Miller and His Orchestra</h4>
           </div>
-        </div>
 
-        <div class = "track">
-          <div id = "track6">
-            <h3>Stardust</h3>
-            <h4>Artie Shaw and His Orchestra</h4>
+          <div class = "track" id = "track6">
+              <h3>Stardust</h3>
+              <h4>Artie Shaw and His Orchestra</h4>
           </div>
-        </div>
 
-        <div class = "track">
-          <div id = "track7">
-            <h3>I'll Never Smile Again</h3>
-            <h4>Artie Shaw, Frank Sinatra, and the Pied Pipers</h4>
+          <div class = "track" id = "track7">
+               <h3>I'll Never Smile Again</h3>
+               <h4>Artie Shaw, Frank Sinatra, and the Pied Pipers</h4>
           </div>
-        </div>
 
-        <div class = "track">
-          <div id = "track8">
-            <h3>White Christmas</h3>
-            <h4>Bing Crosby</h4>
+          <div class = "track" id = "track8">
+              <h3>White Christmas</h3>
+              <h4>Bing Crosby</h4>
           </div>
         </div>
       </div>
@@ -109,7 +102,7 @@
       </div>
 
       <div id = "play">
-      <h4> Pause </h4>
+      <h4> Play </h4>
       </div>
 
       <div id = "stop">
@@ -127,16 +120,11 @@
         <li>Click on the song you want to hear to play it.</li>
         <li>While the song is playing, click the play key to pause.  While paused, click it to resume.  This is like dropping and lifting the needle.</li>
         <li>Click the right arrow key (->) to skip to the next tune.  Click the left arrow key (<-) to skip to the previous one.</li>
-        <li>You can click outside to...</li>
         <li>If you want to choose a song at random, click the button that will let ol' Jackie decide.  He'd be more than happy to do so! </li>
       </ul>
       <h2> So, without further ado, ladies and gentlemen, <br> LET'S DANCE!!! </h2>
     </div>
 
-    </div>
-
   </div>
-  <script src = "js/jackies.js"></script>
-  <script src= "js/jquery-3.1.0.min.js"></script>
 </body>
 </html>
