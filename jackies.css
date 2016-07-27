@@ -1,0 +1,166 @@
+@font-face{
+  font-family: caviar_dreams_bold;
+  src:url(fonts/Caviar_Dreams_bold.ttf);
+}
+
+@font-face{
+  font-family: bettynoir;
+  src:url(fonts/bettynoir.ttf);
+}
+
+@font-face{
+  font-family: chunkfive;
+  src:url(fonts/chunkfive.otf);
+}
+
+@font-face{
+  font-family: OSP-DIN;
+  src:url(fonts/OSP-DIN.ttf);
+}
+
+
+body{
+  background-color: black;
+}
+
+.wrapper{
+  height:100%;
+  width: 100%;
+}
+
+.jumbotron{
+  height: 30%;
+  width: 100%;
+}
+
+.jumbotron h3{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 60px;
+  line-height: 10px;
+  color: #8ab2ea;
+}
+
+.jumbotron h1{
+  text-align: center;
+  font-family: bettynoir;
+  font-size: 200px;
+  line-height: 200px;
+  color: #d299a4;
+}
+
+.jumbotron h2{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 70px;
+  line-height: 40px;
+  color: #8ab2ea;
+}
+
+.column{
+  display: inline-block;
+  width: 27%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.column img{
+  width: 100%;
+  height: 300%;
+  margin: 0 auto;
+}
+
+.column div{
+  display:block;
+}
+
+.column h3{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 60px;
+  line-height: 60px;
+  color: #8ab2ea;
+}
+
+.column h4{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #8ab2ea;
+}
+
+.track {
+  height: 100px;
+  width: 300px;
+  background-color: #36454f;
+}
+
+.track:hover {
+  background-color: #ffb3b3;
+}
+
+.track h3{
+  text-align: center;
+  font-family: chunkfive;
+  font-size: 25px;
+  line-height: 30px;
+  color: #D3D3D3;
+}
+
+.track h4{
+  text-align: center;
+  font-family: chunkfive;
+  font-size: 20px;
+  line-height: 20px;
+  color: #D3D3D3;
+}
+
+#random{
+  text-align: center;
+  font-family: chunkfive;
+  font-size: 40px;
+  line-height: 80px;
+  color: #8ab2ea;
+}
+
+#random: hover{
+  color:white;
+}
+
+.remote {
+  height: 10%;
+  width: 70%;
+  margin:auto;
+  background-color: #918151;
+}
+
+.remote div {
+  display: inline-block;
+  padding-left: 3%;
+}
+
+.remote h4{
+  text-align: center;
+  font-family: chunkfive;
+  font-size: 50px;
+  line-height: 30px;
+  color: #D3D3D3;
+}
+
+.instructions {
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 60px;
+  line-height: 110px;
+  color: white;
+}
+
+.instructions ul{
+  list-style: none;
+  text-align: center;
+  font-family: OSP-DIN;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
