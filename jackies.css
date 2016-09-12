@@ -1,0 +1,183 @@
+@font-face{
+  font-family: bettynoir;
+  src:url(fonts/bettynoir.ttf);
+}
+
+@font-face{
+  font-family: caviar_dreams_bold;
+  src:url(fonts/Caviar_Dreams_bold.ttf);
+}
+
+@font-face{
+  font-family: chunkfive;
+  src:url(fonts/chunkfive.otf);
+}
+
+@font-face{
+  font-family: OSP-DIN;
+  src:url(fonts/OSP-DIN.ttf);
+}
+
+@font-face{
+  font-family: stonyislandbold;
+  src:url(fonts/StonyIslandNF-Bold.ttf);
+}
+
+@font-face{
+  font-family: stonyisland;
+  src:url(fonts/StonyIslandNF.ttf);
+}
+
+body{
+  background-color: rgba(102, 40, 0, .9);
+  height:110vw;
+  width: 95vw;
+}
+
+.jumbotron{
+  height: 18vw;
+  width: 100%;
+}
+
+.jumbotron h3{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 3vw;
+  line-height: 0vw;
+  color: #8ab2ea;
+}
+
+.jumbotron h1{
+  text-align: center;
+  font-family: bettynoir;
+  font-size: 8vw;
+  line-height: 1vw;
+  color: rgb(255, 204, 153);
+}
+
+.jumbotron h2{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 4vw;
+  line-height: 2vw;
+  color: #8ab2ea;
+}
+
+.column{
+  display: inline-block;
+  height: 30vw;
+  width: 31vw;
+}
+.column div{
+  display:block;
+}
+
+.column h3{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 2.5vw;
+  line-height: 0vw;
+  color: #8ab2ea;
+}
+
+.column h4{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 2vw;
+  line-height: 1.9vw;
+  color: #8ab2ea;
+}
+
+#jukebox img{
+  width: 30vw;
+  height: 40vw;
+  margin: 0 auto;
+}
+
+.track {
+  height: 6vw;
+  width: 23vw;
+  background-color: rgb(51,20,0);
+  margin: 0 auto;
+}
+
+.track:hover {
+  background-color: #ffb3b3;
+}
+
+.track h3{
+  text-align: center;
+  font-family: stonyislandbold;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #D3D3D3;
+}
+
+.track h4{
+  text-align: center;
+  font-family: stonyisland;
+  font-size: 1.5vw;
+  line-height: 1vw;
+  color: #D3D3D3;
+}
+
+#random{
+  text-align: center;
+  font-family: stonyislandbold;
+  font-size: 4vw;
+  line-height: 2vw;
+  color: #8ab2ea;
+}
+
+#random: hover{
+  color:white;
+}
+
+.remote {
+  height: 5vw;
+  width: 80vw;
+  margin:auto;
+  background-color: rgb(51,20,0);
+}
+
+.remote div {
+  display: inline-block;
+  padding-left: 3%;
+}
+
+.remote h4{
+  text-align: center;
+  font-family: stonyislandbold;
+  font-size: 3vw;
+  line-height: 2vw;
+  margin-top: 1.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: white;
+}
+
+.instructions{
+  padding-top: 10vw;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.instructions h2{
+  text-align: center;
+  font-family: caviar_dreams_bold;
+  font-size: 3vw;
+  line-height: 4vw;
+  color: white;
+  margin: 0 auto;
+}
+
+.instructions ul{
+  width:55vw;
+  list-style: none;
+  text-align: center;
+  font-family: OSP-DIN;
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  color: white;
+  margin: 0 auto;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jackie Daniels's Jivin' Jukebox</title>
+  <link rel="stylesheet" type="text/css" href="jackies.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jackies.js"></script>
+</head>
+
+<body>
+
+  <div class="wrapper"> <!--Some of my peers, I presume, would prefer wrappers without the 'w'.  You will find none of them here. --> 
+
+    <div class = "jumbotron">
+      <h2>Jackie Daniels's</h2>
+      <h1>Jivin' Jukebox</h1>
+      <h3>Featuring Hits from the Swing Era</h3>
+    </div>
+
+    <div class = "tripartite">
+
+      <audio src = "audio/letsdance.mp3"></audio>
+      <audio src = "audio/begin.mp3"></audio>
+      <audio src = "audio/penn65000.mp3"></audio>
+      <audio src = "audio/atrain.mp3"></audio>
+      <audio src = "audio/moonlight.mp3"></audio>
+      <audio src = "audio/stardust.mp3"></audio>
+      <audio src = "audio/smileagain.mp3"></audio>
+      <audio src = "audio/whitechristmas.mp3"></audio>
+
+
+        <div class = "column" id = "uptempo">
+
+        <h3>Up-Tempo</h3>
+        <h4>For Lindy Hop, Foxtrot, and Other Kinds of Rug-Cutting</h4>
+
+          <div class = "track" id = "track1">
+              <h3>Let's Dance</h3>
+              <h4>Benny Goodman and His Orchestra</h4>
+          </div>
+
+          <div class = "track" id = "track2">
+              <h3>Begin the Beguine</h3>
+              <h4>Artie Shaw and His Orchestra</h4>
+          </div>
+
+          <div class = "track" id = "track3">
+              <h3>Pennsylvania 6-5000</h3>
+              <h4>Glenn Miller and His Orchestra</h4>
+          </div>
+
+          <div class = "track" id = "track4">
+              <h3>Take the A-Train</h3>
+              <h4>Duke Ellington and His Orchestra</h4>
+          </div>
+
+        </div>
+
+        <div class = "column" id = "jukebox">
+            <img src = "Jukebox.jpeg">
+        </div>
+
+        <div class = "column" id = "ballads">
+
+          <h3>Ballads</h3>
+          <h4>For Slow, Sentimental, Romantic Dancing </h4>
+
+          <div class = "track" id = "track5">
+              <h3>Moonlight Serenade</h3>
+              <h4>Glenn Miller and His Orchestra</h4>
+          </div>
+
+          <div class = "track" id = "track6">
+              <h3>Stardust</h3>
+              <h4>Artie Shaw and His Orchestra</h4>
+          </div>
+
+          <div class = "track" id = "track7">
+               <h3>I'll Never Smile Again</h3>
+               <h4>Artie Shaw, Frank Sinatra, and the Pied Pipers</h4>
+          </div>
+
+          <div class = "track" id = "track8">
+              <h3>White Christmas</h3>
+              <h4>Bing Crosby</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id = "random">
+        <h4>Let Jackie decide!</h4>
+    </div>
+
+    <div class = "remote">
+      <div id = "last">
+      <h4> Last </h4>
+      </div>
+
+      <div id = "restart">
+      <h4> Restart </h4>
+      </div>
+
+      <div id = "needle">
+      <h4> Needle </h4>
+      </div>
+
+<!--      <div id = "stop">
+      <h4> Stop </h4>
+      </div> Temporarily commented out until I can get it to work.-->  
+
+      <div id = "skip">
+      <h4> Skip </h4>
+      </div>
+    </div>
+
+    <div class = "instructions">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Click on the song you want to hear.</li>
+        <li>While the song is playing, click the "needle" key to pause.  This, of course, is like lifting the needle.</li> <!--For some reason, it will pause, but not resume?! -->
+        <li>Click the right arrow key (->) to skip to the next record.  Click the left arrow key (<-) to skip to the previous one.</li>
+        <li>If you want to choose a song at random, click the button that will let ol' Jackie decide.  He'd be more than happy to do so! </li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
