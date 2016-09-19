@@ -12,18 +12,18 @@ $(document).ready(function(){
     }
 
     Jukebox.prototype.pause = function(){
-      this.tune.pause(); //Apparently, pause is a built-in function?!
+      this.tune.pause(); //Apparently, pause is a built-in function.
       playing = false;
     }
 
     Jukebox.prototype.needle = function(){
-      if (playing = true) {
+      if (playing) {
         this.tune.pause();
         playing = false; 
       }
-      if (playing = false) {
+      else {
         this.tune.play();
-        playing = true; //After it is paused, it cannot play again?!  Why?
+        playing = true;
       }
     }
     
@@ -121,42 +121,49 @@ $(document).ready(function(){
     Jukebox.prototype.play1 = function(){
       this.tune.pause();
       this.tune = $("audio")[1];
+      this.tune.currentTime = 0;
       this.tune.play(); 
     }
 
     Jukebox.prototype.play2 = function(){
       this.tune.pause();
       this.tune = $("audio")[2];
+      this.tune.currentTime = 0;
       this.tune.play(); 
     }
 
     Jukebox.prototype.play3 = function(){
       this.tune.pause();
       this.tune = $("audio")[3];
+      this.tune.currentTime = 0;
       this.tune.play(); 
     }
 
     Jukebox.prototype.play4 = function(){
       this.tune.pause();
       this.tune = $("audio")[4];
+      this.tune.currentTime = 0;
       this.tune.play(); 
     }
 
      Jukebox.prototype.play5 = function(){
       this.tune.pause();
       this.tune = $("audio")[5];
+      this.tune.currentTime = 0;
       this.tune.play(); 
     }
 
      Jukebox.prototype.play6 = function(){
       this.tune.pause();
       this.tune = $("audio")[6];
+      this.tune.currentTime = 0;
       this.tune.play(); 
     }
 
      Jukebox.prototype.play7 = function(){
       this.tune.pause();
       this.tune = $("audio")[7];
+      this.tune.currentTime = 0;
       this.tune.play(); 
     }
   }
@@ -225,15 +232,15 @@ $(document).ready(function(){
     jivin.play7();
   });
 
-  $('body').keyup(function(e){
+  $("body").keyup(function(e){
     if (e.keyCode == 32){
       jivin.needle();
     }
     
-    if (e.keyCode == 37){
+    if (e.keyCode == 39){
       jivin.next();
     }
-    if (e.keyCode == 36){
+    if (e.keyCode == 37){
       jivin.last();
     }
   });
